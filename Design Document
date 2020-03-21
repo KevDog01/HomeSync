@@ -1,0 +1,27 @@
+Phase 1: A home assistant loop with basic functionaluty (listed below). System monitored by terminal/console but home asisstant can work on repurposed Google Home devices
+  - Phase 1 home assistant loop requirements:
+    * Configure settings
+      # What phrase HomeSync responds to
+      # Create Homes and Rooms to separate HomeSync locations
+      # Set what HomeSync calls you
+      # Get on WiFi network
+      # Volume
+    * Tell time
+    * Tell weather for given location
+    * Set alarm
+    * Call home (call the one of the rooms with a home assistant. Think intercom)
+    * Read calendar (decide integration)
+    * Play YouTube videos
+    * Play Spotify
+    * Ask Google (or some more secure search engine, i.e. DuckDuckGo) a question
+ - Phase 1 operation requirements:
+    * Sanitize, hide, obscure as much data as possible
+      # Establish secure connections during use of integration APIs
+      # Possible VPN tunnel
+    * Able to recognize certain voices and create voice profiles
+      # Take priority over home admins' voices
+    * Store as little data as possible
+      # Information that is stored is salted and encrypted
+    * Extensible and modular code base
+    
+ 
